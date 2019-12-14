@@ -25,35 +25,7 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>BAT0 TO BATC</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					hkJBVDA=
-					</data>
-					<key>Replace</key>
-					<data>
-					hkJBVEM=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>BAT1 TO BATC</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					hkJBVDE=
-					</data>
-					<key>Replace</key>
-					<data>
-					hkJBVEM=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>BAT2 To BATC</string>
+					<string>Notify (\_SB.PCI0.LPCB.EC.BAT1）-&gt; BATC</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -65,6 +37,34 @@
 					<data>
 					Tm90aWZ5IChcX1NCLlBDSTAuTFBDQi5FQy5C
 					QVRD
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Notify(BAT1, ...) -&gt; Notify(BATC, ...)</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					hkJBVDE=
+					</data>
+					<key>Replace</key>
+					<data>
+					hkJBVEM=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Notify(BAT0, ...) -&gt; Notify(BATC, ...)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					hkJBVDA=
+					</data>
+					<key>Replace</key>
+					<data>
+					hkJBVEM=
 					</data>
 				</dict>
 				<dict>
@@ -330,7 +330,7 @@
 					</data>
 					<key>Replace</key>
 					<data>
-					RUMwXw==
+					RUNfXw==
 					</data>
 				</dict>
 				<dict>
@@ -368,11 +368,11 @@
 					<false/>
 					<key>Find</key>
 					<data>
-					X0xJRA==
+					X0xJRAA=
 					</data>
 					<key>Replace</key>
 					<data>
-					WExJRA==
+					WExJRAA=
 					</data>
 				</dict>
 				<dict>
@@ -403,104 +403,6 @@
 					WFEyQg==
 					</data>
 				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>_Q64 to XQ64</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					X1E2NA==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFE2NA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>_Q66 to XQ66</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					X1E2Ng==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFE2Ng==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>_Q6A to XQ6A</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					X1E2QQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFE2QQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>_Q60 to XQ60</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					X1E2MA==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFE2MA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>_Q61 to XQ61</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					X1E2MQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFE2MQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>_Q62 to XQ62</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					X1E2Mg==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFE2Mg==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>_Q16 to XQ16</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					X1ExNg==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFExNg==
-					</data>
-				</dict>
 			</array>
 		</dict>
 		<key>FixHeaders</key>
@@ -529,7 +431,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 brcmfx-country=#a nv_disable=1 agdpmod=pikera</string>
+		<string>dart=0 brcmfx-country=#a nv_disable=1</string>
 		<key>DefaultVolume</key>
 		<string>Macintosh HD</string>
 		<key>Legacy</key>
@@ -550,10 +452,6 @@
 	</dict>
 	<key>CPU</key>
 	<dict>
-		<key>HWPEnable</key>
-		<false/>
-		<key>HWPValue</key>
-		<string>0x00282828</string>
 		<key>UseARTFrequency</key>
 		<false/>
 	</dict>
@@ -769,7 +667,7 @@
 				<key>Comment</key>
 				<string>10.14 Second fix</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>
 				AQAAdWQ=
@@ -925,26 +823,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Prevent VoodooPS2Controller to attach to MOU</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				PHN0cmluZz5QTlAwRjBFPC9zdHJpbmc+CgkJCQk8c3Ry
-				aW5nPlBOUDBGMTM8L3N0cmluZz4JCQkJPHN0cmluZz5Q
-				TlAwRjEzPC9zdHJpbmc+
-				</data>
-				<key>InfoPlistPatch</key>
-				<true/>
-				<key>Name</key>
-				<string>com.apple.driver.AppleSMBusController</string>
-				<key>Replace</key>
-				<data>
-				PHN0cmluZz5QTlAwRjBFPC9zdHJpbmc+
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Prevent Apple SMBus kexts from attaching to SMBUS controller, by AS</string>
 				<key>Disabled</key>
 				<false/>
@@ -1041,21 +919,23 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
+		<key>ROM</key>
+		<string>UseMacAddr0</string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>07/26/2019</string>
+		<string>09/28/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP151.88Z.F000.B00.1907261958</string>
+		<string>MBP151.88Z.F000.B00.1809280842</string>
 		<key>Board-ID</key>
 		<string>Mac-937A206F2EE63C01</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02803101GUJP4FAD</string>
+		<string>C02845102GUJP4FJC</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -1067,7 +947,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>1037.0.39.151.1</string>
+		<string>220.250.320.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -1081,18 +961,20 @@
 		<key>Mobile</key>
 		<true/>
 		<key>PlatformFeature</key>
-		<string>0x02</string>
+		<string>0x1A</string>
 		<key>ProductName</key>
 		<string>MacBookPro15,1</string>
 		<key>SerialNumber</key>
-		<string>C02W4067KGYG</string>
+		<string>C02XNNZWKGYG</string>
 		<key>SmUUID</key>
-		<string>75A1D457-4AE3-4416-B35C-42986A2235B8</string>
+		<string>1D61EB3D-F307-4922-BD48-E225DAD666DA</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
+		<key>CustomUUID</key>
+		<string>EAC328EB-7513-54C6-96C6-E2D68DD5EC46</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>

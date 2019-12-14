@@ -1,0 +1,122 @@
+48:655  1:601  Found UEFI Acpi 2.0 RSDP at 9FFFE014
+48:655  0:000  Saving ACPI tables from RSDP 9FFFE014 to EFI\CLOVER\ACPI\origin ...
+48:655  0:000   9FFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+48:655  0:000    (Xsdt: 9FFB3188, Rsdt: 9FFB30C4)
+48:655  0:000    9FFB3188: 'XSDT', 'TP-N27', Rev: 1, Len: 300
+48:655  0:000    9FFB30C4: 'RSDT', 'TP-N27', Rev: 1, Len: 168
+48:655  0:000    Tables in Xsdt: 33
+48:655  0:000    0. 9FFEC000: 'FACP', 'TP-N27', Rev: 5, Len: 244
+48:655  0:000        (Dsdt: 9FFC1000, Facs: 9FF3D000, XDsdt: 9FFC1000, XFacs: 0)
+48:655  0:000        9FFC1000: 'DSDT', 'SKL', Rev: 2, Len: 158497
+48:659  0:004        9FF3D000: 'FACS', Ver: 2, Len: 64
+48:659  0:000    1. 9FFF4000: 'SSDT', 'DptfTabl', Rev: 2, Len: 32867
+48:659  0:000    2. 9FFF3000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 987
+48:659  0:000    3. 9FFF2000: 'TPM2', 'TP-N27', Rev: 3, Len: 52
+48:659  0:000    4. 9FF53000: 'UEFI', 'TP-N27', Rev: 1, Len: 66
+48:659  0:000    5. 9FFEE000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12464
+48:659  0:000    6. 9FFED000: 'SSDT', 'PerfTune', Rev: 2, Len: 1478
+48:659  0:000    7. 9FFEB000: 'HPET', 'TP-N27', Rev: 1, Len: 56
+48:659  0:000    8. 9FFEA000: 'APIC', 'TP-N27', Rev: 3, Len: 300
+48:659  0:000    9. 9FFE9000: 'MCFG', 'TP-N27', Rev: 1, Len: 60
+48:659  0:000    10. 9FFE8000: 'ECDT', 'TP-N27', Rev: 1, Len: 83
+48:659  0:000    11. 9FFBF000: 'SSDT', 'RVP7Rtd3', Rev: 2, Len: 7186
+48:659  0:000    12. 9FFBD000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5692
+48:659  0:000    13. 9FFBC000: 'BOOT', 'TP-N27', Rev: 1, Len: 40
+48:659  0:000    14. 9FFBB000: 'BATB', 'TP-N27', Rev: 2, Len: 74
+48:659  0:000    15. 9FFB9000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+48:659  0:000    16. 9FFB8000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+48:659  0:000    17. 9FFB7000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1656
+48:659  0:000    18. 9FFB6000: 'LPIT', 'TP-N27', Rev: 1, Len: 148
+48:659  0:000    19. 9FFB5000: 'WSMT', 'TP-N27', Rev: 1, Len: 40
+48:659  0:000    20. 9FFB4000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+48:659  0:000    21. 9FFFD000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1237
+48:660  0:000    22. 9FFB2000: 'SSDT', 'Wwan', Rev: 2, Len: 721
+48:660  0:000    23. 9FFB1000: 'DBGP', 'TP-N27', Rev: 1, Len: 52
+48:660  0:000    24. 9FFB0000: 'DBG2', 'TP-N27', Rev: 0, Len: 84
+48:660  0:000    25. 9FFAF000: 'MSDM', 'TP-N27', Rev: 3, Len: 85
+48:660  0:000    26. 9FFAE000: 'SSDT', 'NvOptTbl', Rev: 1, Len: 108
+48:660  0:000    27. 9FFAC000: 'SSDT', 'SgPch', Rev: 2, Len: 5246
+48:660  0:000    28. 9FFAB000: 'DMAR', 'TP-N27', Rev: 1, Len: 168
+48:660  0:000    29. 9FFAA000: 'ASF!', 'TP-N27', Rev: 32, Len: 160
+48:660  0:000    30. 9FFA9000: 'FPDT', 'TP-N27', Rev: 1, Len: 68
+48:660  0:000    31. 9FFA8000: 'BGRT', 'TP-N27', Rev: 1, Len: 56
+48:660  0:000    32. 9FF09000: 'UEFI', 'TP-N27', Rev: 1, Len: 318
+48:660  0:000    Tables in Rsdt: 33
+48:660  0:000    0. 9FFEC000: 'FACP', 'TP-N27', Rev: 5, Len: 244
+48:660  0:000        (Dsdt: 9FFC1000, Facs: 9FF3D000, XDsdt: 9FFC1000, XFacs: 0)
+48:660  0:000        9FFC1000: 'DSDT', 'SKL', Rev: 2, Len: 158497
+48:664  0:004        9FF3D000: 'FACS', Ver: 2, Len: 64
+48:664  0:000    1. 9FFF4000: 'SSDT', 'DptfTabl', Rev: 2, Len: 32867
+48:664  0:000    2. 9FFF3000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 987
+48:664  0:000    3. 9FFF2000: 'TPM2', 'TP-N27', Rev: 3, Len: 52
+48:664  0:000    4. 9FF53000: 'UEFI', 'TP-N27', Rev: 1, Len: 66
+48:664  0:000    5. 9FFEE000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12464
+48:664  0:000    6. 9FFED000: 'SSDT', 'PerfTune', Rev: 2, Len: 1478
+48:664  0:000    7. 9FFEB000: 'HPET', 'TP-N27', Rev: 1, Len: 56
+48:664  0:000    8. 9FFEA000: 'APIC', 'TP-N27', Rev: 3, Len: 300
+48:664  0:000    9. 9FFE9000: 'MCFG', 'TP-N27', Rev: 1, Len: 60
+48:664  0:000    10. 9FFE8000: 'ECDT', 'TP-N27', Rev: 1, Len: 83
+48:664  0:000    11. 9FFBF000: 'SSDT', 'RVP7Rtd3', Rev: 2, Len: 7186
+48:664  0:000    12. 9FFBD000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5692
+48:664  0:000    13. 9FFBC000: 'BOOT', 'TP-N27', Rev: 1, Len: 40
+48:664  0:000    14. 9FFBB000: 'BATB', 'TP-N27', Rev: 2, Len: 74
+48:664  0:000    15. 9FFB9000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+48:664  0:000    16. 9FFB8000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+48:664  0:000    17. 9FFB7000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1656
+48:664  0:000    18. 9FFB6000: 'LPIT', 'TP-N27', Rev: 1, Len: 148
+48:664  0:000    19. 9FFB5000: 'WSMT', 'TP-N27', Rev: 1, Len: 40
+48:664  0:000    20. 9FFB4000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+48:664  0:000    21. 9FFFD000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1237
+48:664  0:000    22. 9FFB2000: 'SSDT', 'Wwan', Rev: 2, Len: 721
+48:664  0:000    23. 9FFB1000: 'DBGP', 'TP-N27', Rev: 1, Len: 52
+48:664  0:000    24. 9FFB0000: 'DBG2', 'TP-N27', Rev: 0, Len: 84
+48:664  0:000    25. 9FFAF000: 'MSDM', 'TP-N27', Rev: 3, Len: 85
+48:664  0:000    26. 9FFAE000: 'SSDT', 'NvOptTbl', Rev: 1, Len: 108
+48:664  0:000    27. 9FFAC000: 'SSDT', 'SgPch', Rev: 2, Len: 5246
+48:664  0:000    28. 9FFAB000: 'DMAR', 'TP-N27', Rev: 1, Len: 168
+48:664  0:000    29. 9FFAA000: 'ASF!', 'TP-N27', Rev: 32, Len: 160
+48:664  0:000    30. 9FFA9000: 'FPDT', 'TP-N27', Rev: 1, Len: 68
+48:664  0:000    31. 9FFA8000: 'BGRT', 'TP-N27', Rev: 1, Len: 56
+48:664  0:000    32. 9FF09000: 'UEFI', 'TP-N27', Rev: 1, Len: 318
+48:664  0:000  Found UEFI Acpi 1.0 RSDP at 9FFFE000
+48:664  0:000  Printing ACPI tables from RSDP 9FFFE000 ...
+48:664  0:000   9FFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+48:664  0:000    (Rsdt: 9FFB3000)
+48:664  0:000    9FFB3000: 'RSDT', 'TP-N27', Rev: 1, Len: 168
+48:664  0:000    Tables in Rsdt: 33
+48:664  0:000    0. 9FFEC000: 'FACP', 'TP-N27', Rev: 5, Len: 244
+48:664  0:000        (Dsdt: 9FFC1000, Facs: 9FF3D000, XDsdt: 9FFC1000, XFacs: 0)
+48:664  0:000        9FFC1000: 'DSDT', 'SKL', Rev: 2, Len: 158497
+48:668  0:004        9FF3D000: 'FACS', Ver: 2, Len: 64
+48:668  0:000    1. 9FFF4000: 'SSDT', 'DptfTabl', Rev: 2, Len: 32867
+48:668  0:000    2. 9FFF3000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 987
+48:668  0:000    3. 9FFF2000: 'TPM2', 'TP-N27', Rev: 3, Len: 52
+48:668  0:000    4. 9FF53000: 'UEFI', 'TP-N27', Rev: 1, Len: 66
+48:668  0:000    5. 9FFEE000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12464
+48:668  0:000    6. 9FFED000: 'SSDT', 'PerfTune', Rev: 2, Len: 1478
+48:668  0:000    7. 9FFEB000: 'HPET', 'TP-N27', Rev: 1, Len: 56
+48:668  0:000    8. 9FFEA000: 'APIC', 'TP-N27', Rev: 3, Len: 300
+48:668  0:000    9. 9FFE9000: 'MCFG', 'TP-N27', Rev: 1, Len: 60
+48:668  0:000    10. 9FFE8000: 'ECDT', 'TP-N27', Rev: 1, Len: 83
+48:668  0:000    11. 9FFBF000: 'SSDT', 'RVP7Rtd3', Rev: 2, Len: 7186
+48:668  0:000    12. 9FFBD000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5692
+48:668  0:000    13. 9FFBC000: 'BOOT', 'TP-N27', Rev: 1, Len: 40
+48:668  0:000    14. 9FFBB000: 'BATB', 'TP-N27', Rev: 2, Len: 74
+48:668  0:000    15. 9FFB9000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+48:668  0:000    16. 9FFB8000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+48:668  0:000    17. 9FFB7000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1656
+48:668  0:000    18. 9FFB6000: 'LPIT', 'TP-N27', Rev: 1, Len: 148
+48:668  0:000    19. 9FFB5000: 'WSMT', 'TP-N27', Rev: 1, Len: 40
+48:668  0:000    20. 9FFB4000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+48:668  0:000    21. 9FFFD000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1237
+48:668  0:000    22. 9FFB2000: 'SSDT', 'Wwan', Rev: 2, Len: 721
+48:668  0:000    23. 9FFB1000: 'DBGP', 'TP-N27', Rev: 1, Len: 52
+48:668  0:000    24. 9FFB0000: 'DBG2', 'TP-N27', Rev: 0, Len: 84
+48:668  0:000    25. 9FFAF000: 'MSDM', 'TP-N27', Rev: 3, Len: 85
+48:668  0:000    26. 9FFAE000: 'SSDT', 'NvOptTbl', Rev: 1, Len: 108
+48:668  0:000    27. 9FFAC000: 'SSDT', 'SgPch', Rev: 2, Len: 5246
+48:668  0:000    28. 9FFAB000: 'DMAR', 'TP-N27', Rev: 1, Len: 168
+48:668  0:000    29. 9FFAA000: 'ASF!', 'TP-N27', Rev: 32, Len: 160
+48:668  0:000    30. 9FFA9000: 'FPDT', 'TP-N27', Rev: 1, Len: 68
+48:668  0:000    31. 9FFA8000: 'BGRT', 'TP-N27', Rev: 1, Len: 56
+48:668  0:000    32. 9FF09000: 'UEFI', 'TP-N27', Rev: 1, Len: 318

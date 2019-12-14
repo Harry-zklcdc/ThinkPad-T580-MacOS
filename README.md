@@ -11,15 +11,13 @@
 
 * 内存16GB RAM DDR4 2400-SODIMM
 
-* 东芝Q200EX SSD+128G 东芝nvme联想跟机带
+* Samsung PM981 512GB 更新驱动
 
 * 英特尔以太网I219-V4 有线网卡
 
-* Mac原装无线网卡bcm94360cs2（原装英特尔AC8265无法正常工作）
+* WiFi CF-811AC 外置网卡
 
-* Wi-Fi设备芯片组为(0x14E4, 0x117) 显示Airport Extreme，使用AirportBrcmFixup.kext修改信道国家代码
-
-* 蓝牙设备芯片组20702B0,固件版本:v150 c9318 免驱动
+* 蓝牙设备芯片组20702B0,固件版本:v150 c9318 不可用
 
 * 瑞昱Realtek ALC3287（“ALC257”）通过AppleALC.kext与layout-id：11，支持耳机和自带喇叭之间插拔自动切换。
 
@@ -31,7 +29,7 @@
 
 * Thunderbolt 3【BIOS里需要设置“Thunderbolt BIOS Assist”：Disable，“Security level” :No Security(允许自动连接 Thunderbolt 设备)。这样即可使前端类型USB type-c端口在macOS中工作，可以热插拔， DP / HDMI通过USB type-C：视频工作正常，连接扩展坞正常，雷电3设备工作正常，热插拔正常】
 
-* 机器自带独立的HDMI端口：可以输出4k@30HZ到显示器。连接时会显示音频设备HDMI，并正常使用。
+* ~~机器自带独立的HDMI端口：可以输出4k@30HZ到显示器。连接时会显示音频设备HDMI，并正常使用。~~ （无法使用）
 
 * 键盘Synaptics触摸板（PS / 2）使用ApplePS2SmartTouchPad.kext，EMlyDinEsH的v4.7b5，支持多点触控手势。
 * 睡眠和唤醒正常
@@ -46,7 +44,7 @@
 
 UEFI BIOS固件修订
 -----------
-* BIOS版本 1.20,1.21,1.22通用
+* BIOS版本 1.20,1.21,1.22,1.23通用
 
 
 目前存在的问题
@@ -55,3 +53,15 @@ UEFI BIOS固件修订
 
 备注
 --------
+
+打开睡眠
+
+```bash
+sudo pmset -a hibernatemode 0
+sudo rm /var/vm/sleepimage
+sudo mkdir /var/vm/sleepimage
+sudo pmset -a proximitywake 0
+sudo pmset -a standby 0
+sudo pmset -a autopoweroff 0
+```
+

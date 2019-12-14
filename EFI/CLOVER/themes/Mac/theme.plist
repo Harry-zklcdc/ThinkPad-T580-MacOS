@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>Author</key>
-	<string>Ukr55</string>
+	<string>CrazyPegasus</string>
 	<key>Description</key>
-	<string>BootCamp style theme for clover</string>
+	<string>Mojave Clover theme for 4K Display @3840x2160. Version: 2.1</string>
 	<key>Theme</key>
 	<dict>
 		<key>Background</key>
@@ -13,9 +13,7 @@
 			<key>Dark</key>
 			<true/>
 			<key>Path</key>
-			<string>bg.png</string>
-			<key>Sharp</key>
-			<string>0x00</string>
+			<string>background.png</string>
 			<key>Type</key>
 			<string>Scale</string>
 		</dict>
@@ -23,18 +21,17 @@
 		<dict>
 			<key>Inline</key>
 			<false/>
+			<key>Scale</key>
+			<integer>16</integer>
 			<key>Show</key>
 			<false/>
 			<key>Swap</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>Banner</key>
-		<dict>
-			<key>Path</key>
-			<string>logo.png</string>
-		</dict>
+		<string>logo.png</string>
 		<key>BootCampStyle</key>
-		<true/>
+		<false/>
 		<key>Components</key>
 		<dict>
 			<key>Banner</key>
@@ -42,7 +39,7 @@
 			<key>Functions</key>
 			<true/>
 			<key>Help</key>
-			<false/>
+			<true/>
 			<key>Label</key>
 			<true/>
 			<key>MenuTitle</key>
@@ -50,16 +47,14 @@
 			<key>MenuTitleImage</key>
 			<true/>
 			<key>Revision</key>
-			<false/>
-			<key>Tools</key>
 			<true/>
 		</dict>
 		<key>Font</key>
 		<dict>
 			<key>CharWidth</key>
-			<integer>10</integer>
+			<integer>24</integer>
 			<key>Path</key>
-			<string>mpr1.png</string>
+			<string>Font_DroidSans_38pt_White.png</string>
 			<key>Proportional</key>
 			<false/>
 			<key>Type</key>
@@ -67,50 +62,47 @@
 		</dict>
 		<key>Layout</key>
 		<dict>
+			<key>BannerOffset</key>
+			<integer>-128</integer>
+			<key>ButtonOffset</key>
+			<integer>72</integer>
+			<key>SelectionBigWidth</key>
+			<integer>304</integer>
+			<key>SelectionSmallWidth</key>
+			<integer>180</integer>
 			<key>TextOffset</key>
-			<integer>100</integer>
+			<integer>-192</integer>
 			<key>TileXSpace</key>
-			<integer>40</integer>
+			<integer>0</integer>
 			<key>TileYSpace</key>
-			<integer>60</integer>
+			<integer>256</integer>
 			<key>Vertical</key>
 			<false/>
 		</dict>
 		<key>Origination</key>
 		<dict>
 			<key>DesignHeight</key>
-			<integer>1080</integer>
+			<integer>2160</integer>
 			<key>DesignWidth</key>
-			<integer>1920</integer>
-		</dict>
-		<key>Scroll</key>
-		<dict>
-			<key>BarHeight</key>
-			<integer>4</integer>
-			<key>Height</key>
-			<integer>16</integer>
-			<key>ScrollHeight</key>
-			<integer>8</integer>
-			<key>Width</key>
-			<integer>16</integer>
+			<integer>3840</integer>
 		</dict>
 		<key>Selection</key>
 		<dict>
 			<key>Big</key>
-			<string>144.png</string>
-			<key>Color</key>
-			<string>0xFFFFFF7F</string>
-			<key>Indicator</key>
-			<string>arrow-64.png</string>
-			<key>OnTop</key>
+			<string>Selection_big.png</string>
+			<key>ChangeNonSelectedGrey</key>
 			<false/>
-			<key>SelectionSmallWidth</key>
-			<integer>100</integer>
+			<key>Color</key>
+			<string>0x00000065</string>
+			<key>OnTop</key>
+			<true/>
 			<key>Small</key>
 			<string>Selection_small.png</string>
 		</dict>
 	</dict>
+	<key>Version</key>
+	<string>2.1</string>
 	<key>Year</key>
-	<string>2017</string>
+	<string>2019</string>
 </dict>
 </plist>
