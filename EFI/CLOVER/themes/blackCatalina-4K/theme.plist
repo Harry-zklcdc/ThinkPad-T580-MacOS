@@ -37,7 +37,7 @@
 			<key>Scale</key>
 			<integer>16</integer>
 			<key>Show</key>
-			<false/>
+			<true/>
 			<key>Swap</key>
 			<true/>
 		</dict>
