@@ -1,122 +1,132 @@
-48:655  1:601  Found UEFI Acpi 2.0 RSDP at 9FFFE014
-48:655  0:000  Saving ACPI tables from RSDP 9FFFE014 to EFI\CLOVER\ACPI\origin ...
-48:655  0:000   9FFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
-48:655  0:000    (Xsdt: 9FFB3188, Rsdt: 9FFB30C4)
-48:655  0:000    9FFB3188: 'XSDT', 'TP-N27', Rev: 1, Len: 300
-48:655  0:000    9FFB30C4: 'RSDT', 'TP-N27', Rev: 1, Len: 168
-48:655  0:000    Tables in Xsdt: 33
-48:655  0:000    0. 9FFEC000: 'FACP', 'TP-N27', Rev: 5, Len: 244
-48:655  0:000        (Dsdt: 9FFC1000, Facs: 9FF3D000, XDsdt: 9FFC1000, XFacs: 0)
-48:655  0:000        9FFC1000: 'DSDT', 'SKL', Rev: 2, Len: 158497
-48:659  0:004        9FF3D000: 'FACS', Ver: 2, Len: 64
-48:659  0:000    1. 9FFF4000: 'SSDT', 'DptfTabl', Rev: 2, Len: 32867
-48:659  0:000    2. 9FFF3000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 987
-48:659  0:000    3. 9FFF2000: 'TPM2', 'TP-N27', Rev: 3, Len: 52
-48:659  0:000    4. 9FF53000: 'UEFI', 'TP-N27', Rev: 1, Len: 66
-48:659  0:000    5. 9FFEE000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12464
-48:659  0:000    6. 9FFED000: 'SSDT', 'PerfTune', Rev: 2, Len: 1478
-48:659  0:000    7. 9FFEB000: 'HPET', 'TP-N27', Rev: 1, Len: 56
-48:659  0:000    8. 9FFEA000: 'APIC', 'TP-N27', Rev: 3, Len: 300
-48:659  0:000    9. 9FFE9000: 'MCFG', 'TP-N27', Rev: 1, Len: 60
-48:659  0:000    10. 9FFE8000: 'ECDT', 'TP-N27', Rev: 1, Len: 83
-48:659  0:000    11. 9FFBF000: 'SSDT', 'RVP7Rtd3', Rev: 2, Len: 7186
-48:659  0:000    12. 9FFBD000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5692
-48:659  0:000    13. 9FFBC000: 'BOOT', 'TP-N27', Rev: 1, Len: 40
-48:659  0:000    14. 9FFBB000: 'BATB', 'TP-N27', Rev: 2, Len: 74
-48:659  0:000    15. 9FFB9000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
-48:659  0:000    16. 9FFB8000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
-48:659  0:000    17. 9FFB7000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1656
-48:659  0:000    18. 9FFB6000: 'LPIT', 'TP-N27', Rev: 1, Len: 148
-48:659  0:000    19. 9FFB5000: 'WSMT', 'TP-N27', Rev: 1, Len: 40
-48:659  0:000    20. 9FFB4000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
-48:659  0:000    21. 9FFFD000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1237
-48:660  0:000    22. 9FFB2000: 'SSDT', 'Wwan', Rev: 2, Len: 721
-48:660  0:000    23. 9FFB1000: 'DBGP', 'TP-N27', Rev: 1, Len: 52
-48:660  0:000    24. 9FFB0000: 'DBG2', 'TP-N27', Rev: 0, Len: 84
-48:660  0:000    25. 9FFAF000: 'MSDM', 'TP-N27', Rev: 3, Len: 85
-48:660  0:000    26. 9FFAE000: 'SSDT', 'NvOptTbl', Rev: 1, Len: 108
-48:660  0:000    27. 9FFAC000: 'SSDT', 'SgPch', Rev: 2, Len: 5246
-48:660  0:000    28. 9FFAB000: 'DMAR', 'TP-N27', Rev: 1, Len: 168
-48:660  0:000    29. 9FFAA000: 'ASF!', 'TP-N27', Rev: 32, Len: 160
-48:660  0:000    30. 9FFA9000: 'FPDT', 'TP-N27', Rev: 1, Len: 68
-48:660  0:000    31. 9FFA8000: 'BGRT', 'TP-N27', Rev: 1, Len: 56
-48:660  0:000    32. 9FF09000: 'UEFI', 'TP-N27', Rev: 1, Len: 318
-48:660  0:000    Tables in Rsdt: 33
-48:660  0:000    0. 9FFEC000: 'FACP', 'TP-N27', Rev: 5, Len: 244
-48:660  0:000        (Dsdt: 9FFC1000, Facs: 9FF3D000, XDsdt: 9FFC1000, XFacs: 0)
-48:660  0:000        9FFC1000: 'DSDT', 'SKL', Rev: 2, Len: 158497
-48:664  0:004        9FF3D000: 'FACS', Ver: 2, Len: 64
-48:664  0:000    1. 9FFF4000: 'SSDT', 'DptfTabl', Rev: 2, Len: 32867
-48:664  0:000    2. 9FFF3000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 987
-48:664  0:000    3. 9FFF2000: 'TPM2', 'TP-N27', Rev: 3, Len: 52
-48:664  0:000    4. 9FF53000: 'UEFI', 'TP-N27', Rev: 1, Len: 66
-48:664  0:000    5. 9FFEE000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12464
-48:664  0:000    6. 9FFED000: 'SSDT', 'PerfTune', Rev: 2, Len: 1478
-48:664  0:000    7. 9FFEB000: 'HPET', 'TP-N27', Rev: 1, Len: 56
-48:664  0:000    8. 9FFEA000: 'APIC', 'TP-N27', Rev: 3, Len: 300
-48:664  0:000    9. 9FFE9000: 'MCFG', 'TP-N27', Rev: 1, Len: 60
-48:664  0:000    10. 9FFE8000: 'ECDT', 'TP-N27', Rev: 1, Len: 83
-48:664  0:000    11. 9FFBF000: 'SSDT', 'RVP7Rtd3', Rev: 2, Len: 7186
-48:664  0:000    12. 9FFBD000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5692
-48:664  0:000    13. 9FFBC000: 'BOOT', 'TP-N27', Rev: 1, Len: 40
-48:664  0:000    14. 9FFBB000: 'BATB', 'TP-N27', Rev: 2, Len: 74
-48:664  0:000    15. 9FFB9000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
-48:664  0:000    16. 9FFB8000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
-48:664  0:000    17. 9FFB7000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1656
-48:664  0:000    18. 9FFB6000: 'LPIT', 'TP-N27', Rev: 1, Len: 148
-48:664  0:000    19. 9FFB5000: 'WSMT', 'TP-N27', Rev: 1, Len: 40
-48:664  0:000    20. 9FFB4000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
-48:664  0:000    21. 9FFFD000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1237
-48:664  0:000    22. 9FFB2000: 'SSDT', 'Wwan', Rev: 2, Len: 721
-48:664  0:000    23. 9FFB1000: 'DBGP', 'TP-N27', Rev: 1, Len: 52
-48:664  0:000    24. 9FFB0000: 'DBG2', 'TP-N27', Rev: 0, Len: 84
-48:664  0:000    25. 9FFAF000: 'MSDM', 'TP-N27', Rev: 3, Len: 85
-48:664  0:000    26. 9FFAE000: 'SSDT', 'NvOptTbl', Rev: 1, Len: 108
-48:664  0:000    27. 9FFAC000: 'SSDT', 'SgPch', Rev: 2, Len: 5246
-48:664  0:000    28. 9FFAB000: 'DMAR', 'TP-N27', Rev: 1, Len: 168
-48:664  0:000    29. 9FFAA000: 'ASF!', 'TP-N27', Rev: 32, Len: 160
-48:664  0:000    30. 9FFA9000: 'FPDT', 'TP-N27', Rev: 1, Len: 68
-48:664  0:000    31. 9FFA8000: 'BGRT', 'TP-N27', Rev: 1, Len: 56
-48:664  0:000    32. 9FF09000: 'UEFI', 'TP-N27', Rev: 1, Len: 318
-48:664  0:000  Found UEFI Acpi 1.0 RSDP at 9FFFE000
-48:664  0:000  Printing ACPI tables from RSDP 9FFFE000 ...
-48:664  0:000   9FFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
-48:664  0:000    (Rsdt: 9FFB3000)
-48:664  0:000    9FFB3000: 'RSDT', 'TP-N27', Rev: 1, Len: 168
-48:664  0:000    Tables in Rsdt: 33
-48:664  0:000    0. 9FFEC000: 'FACP', 'TP-N27', Rev: 5, Len: 244
-48:664  0:000        (Dsdt: 9FFC1000, Facs: 9FF3D000, XDsdt: 9FFC1000, XFacs: 0)
-48:664  0:000        9FFC1000: 'DSDT', 'SKL', Rev: 2, Len: 158497
-48:668  0:004        9FF3D000: 'FACS', Ver: 2, Len: 64
-48:668  0:000    1. 9FFF4000: 'SSDT', 'DptfTabl', Rev: 2, Len: 32867
-48:668  0:000    2. 9FFF3000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 987
-48:668  0:000    3. 9FFF2000: 'TPM2', 'TP-N27', Rev: 3, Len: 52
-48:668  0:000    4. 9FF53000: 'UEFI', 'TP-N27', Rev: 1, Len: 66
-48:668  0:000    5. 9FFEE000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12464
-48:668  0:000    6. 9FFED000: 'SSDT', 'PerfTune', Rev: 2, Len: 1478
-48:668  0:000    7. 9FFEB000: 'HPET', 'TP-N27', Rev: 1, Len: 56
-48:668  0:000    8. 9FFEA000: 'APIC', 'TP-N27', Rev: 3, Len: 300
-48:668  0:000    9. 9FFE9000: 'MCFG', 'TP-N27', Rev: 1, Len: 60
-48:668  0:000    10. 9FFE8000: 'ECDT', 'TP-N27', Rev: 1, Len: 83
-48:668  0:000    11. 9FFBF000: 'SSDT', 'RVP7Rtd3', Rev: 2, Len: 7186
-48:668  0:000    12. 9FFBD000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5692
-48:668  0:000    13. 9FFBC000: 'BOOT', 'TP-N27', Rev: 1, Len: 40
-48:668  0:000    14. 9FFBB000: 'BATB', 'TP-N27', Rev: 2, Len: 74
-48:668  0:000    15. 9FFB9000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
-48:668  0:000    16. 9FFB8000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
-48:668  0:000    17. 9FFB7000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 1656
-48:668  0:000    18. 9FFB6000: 'LPIT', 'TP-N27', Rev: 1, Len: 148
-48:668  0:000    19. 9FFB5000: 'WSMT', 'TP-N27', Rev: 1, Len: 40
-48:668  0:000    20. 9FFB4000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
-48:668  0:000    21. 9FFFD000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1237
-48:668  0:000    22. 9FFB2000: 'SSDT', 'Wwan', Rev: 2, Len: 721
-48:668  0:000    23. 9FFB1000: 'DBGP', 'TP-N27', Rev: 1, Len: 52
-48:668  0:000    24. 9FFB0000: 'DBG2', 'TP-N27', Rev: 0, Len: 84
-48:668  0:000    25. 9FFAF000: 'MSDM', 'TP-N27', Rev: 3, Len: 85
-48:668  0:000    26. 9FFAE000: 'SSDT', 'NvOptTbl', Rev: 1, Len: 108
-48:668  0:000    27. 9FFAC000: 'SSDT', 'SgPch', Rev: 2, Len: 5246
-48:668  0:000    28. 9FFAB000: 'DMAR', 'TP-N27', Rev: 1, Len: 168
-48:668  0:000    29. 9FFAA000: 'ASF!', 'TP-N27', Rev: 32, Len: 160
-48:668  0:000    30. 9FFA9000: 'FPDT', 'TP-N27', Rev: 1, Len: 68
-48:668  0:000    31. 9FFA8000: 'BGRT', 'TP-N27', Rev: 1, Len: 56
-48:668  0:000    32. 9FF09000: 'UEFI', 'TP-N27', Rev: 1, Len: 318
+13:232  2:809  Found UEFI Acpi 2.0 RSDP at %p
+13:232  0:000  Saving ACPI tables from RSDP %p to å’â„å‘â’ä³Žä¹…å™Éãƒ„ä¿»$ ...
+13:232  0:000   %p: 'RSD PTR ÎLENOVOÄ0ûO$', Rev: 1067282535 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+13:246  0:014    (Xsdt: %p, Rsdt: %p)
+13:246  0:000    %p: 'XSDT4', 'XSDT', Rev: 1067282394, Len: 1 -> XSDT.aml
+13:257  0:010    %p: 'RSDT¬', 'RSDT', Rev: 1067282394, Len: 1 -> RSDT.aml
+13:268  0:010    Tables in Xsdt: 34
+13:268  0:000    0. %p: 'FACPô', 'FACP', Rev: 1067282394, Len: 5 -> FACP.aml
+13:278  0:010        (Dsdt: 4FFC1000, Facs: 4FF3E000, XDsdt: 4ffc1000, XFacs: 0)
+13:278  0:000        %p: 'DSDT!k', 'DSDT', Rev: 1067282282, Len: 2 -> DSDT.aml
+13:295  0:017        %p: 'FACS@', Ver: 1067282419, Len: 2 -> FACS.aml
+13:308  0:012    1. %p: 'SSDTc€', 'SSDT', Rev: 1067282394, Len: 2 -> SSDT-0-DptfTabl.aml
+13:320  0:012    2. %p: 'SSDTÛ', 'SSDT', Rev: 1067282394, Len: 2 -> SSDT-1-Tpm2Tabl.aml
+13:331  0:010    3. %p: 'TPM24', 'TPM2', Rev: 1067282394, Len: 3 -> TPM2.aml
+13:341  0:010    4. %p: 'UEFIB', 'UEFI', Rev: 1067282394, Len: 1 -> UEFI.aml
+13:354  0:013    5. %p: 'SSDTÚ0', 'SSDT', Rev: 1067282394, Len: 2 -> SSDT-2-SaSsdt.aml
+13:365  0:011    6. %p: 'SSDTÆ', 'SSDT', Rev: 1067282394, Len: 2 -> SSDT-3-PerfTune.aml
+13:376  0:010    7. %p: 'HPET8', 'HPET', Rev: 1067282394, Len: 1 -> HPET.aml
+13:386  0:010    8. %p: 'APIC,', 'APIC', Rev: 1067282394, Len: 3 -> APIC.aml
+13:396  0:010    9. %p: 'MCFG<', 'MCFG', Rev: 1067282394, Len: 1 -> MCFG.aml
+13:407  0:010    10. %p: 'ECDTS', 'ECDT', Rev: 1067282394, Len: 1 -> ECDT.aml
+13:418  0:010    11. %p: 'SSDT', 'SSDT', Rev: 1067282394, Len: 2 -> SSDT-4-RVP7Rtd3.aml
+13:428  0:010    12. %p: 'SSDT<', 'SSDT', Rev: 1067282394, Len: 2 -> SSDT-5-ProjSsdt.aml
+13:442  0:013    13. %p: 'BOOT(', 'BOOT', Rev: 1067282394, Len: 1 -> BOOT.aml
+13:452  0:010    14. %p: 'BATBJ', 'BATB', Rev: 1067282394, Len: 2 -> BATB.aml
+13:463  0:010    15. %p: 'SLICv', 'SLIC', Rev: 1067282394, Len: 1 -> SLIC.aml
+13:470  0:007    16. %p: 'SSDT®', 'SSDT', Rev: 1067282394, Len: 2 -> SSDT-6-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+13:480  0:010        * 1341075608: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1485  53 53 44 54 CD 05 00 00 02 BB 50 6D 52 65 66 00 Internal length = 1485 -> SSDT-x6_0-Cpu0Ist.aml
+13:491  0:010        * 1340575768: 'SSDT', 'ApIst', Rev: 2, Len: 3348  53 53 44 54 14 0D 00 00 02 2A 50 6D 52 65 66 00 Internal length = 3348 -> SSDT-x6_1-ApIst.aml
+13:506  0:015        * 1340581528: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 11 50 6D 52 65 66 00 Internal length = 1023 -> SSDT-x6_2-Cpu0Cst.aml
+13:517  0:010        * 1341077272: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 93 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x6_3-ApCst.aml
+13:527  0:010        * 1341079064: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 186  53 53 44 54 BA 00 00 00 02 7D 50 6D 52 65 66 00 Internal length = 186 -> SSDT-x6_4-Cpu0Hwp.aml
+13:537  0:010        * 1340571672: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 80 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x6_5-ApHwp.aml
+13:548  0:010        * 1340579864: 'SSDT', 'HwpLvt', Rev: 2, Len: 1576  53 53 44 54 28 06 00 00 02 85 50 6D 52 65 66 00 Internal length = 1576 -> SSDT-x6_6-HwpLvt.aml
+13:559  0:010  
+13:559  0:000    17. %p: 'SSDTm', 'SSDT', Rev: 1067282394, Len: 2 -> SSDT-7-CtdpB.aml
+13:569  0:010    18. %p: 'SSDTx', 'SSDT', Rev: 1067282394, Len: 2 -> SSDT-8-UsbCTabl.aml
+13:580  0:010    19. %p: 'LPIT”', 'LPIT', Rev: 1067282394, Len: 1 -> LPIT.aml
+13:591  0:010    20. %p: 'WSMT(', 'WSMT', Rev: 1067282394, Len: 1 -> WSMT.aml
+13:601  0:010    21. %p: 'SSDTA', 'SSDT', Rev: 1067282394, Len: 2 -> SSDT-9-HdaDsp.aml
+13:612  0:010    22. %p: 'SSDTÕ', 'SSDT', Rev: 1067282394, Len: 2 -> SSDT-10-TbtTypeC.aml
+13:622  0:010    23. %p: 'SSDTÑ', 'SSDT', Rev: 1067282394, Len: 2 -> SSDT-11-Wwan.aml
+13:633  0:010    24. %p: 'DBGP4', 'DBGP', Rev: 1067282394, Len: 1 -> DBGP.aml
+13:644  0:011    25. %p: 'DBG2T', 'DBG2', Rev: 1067282394, Len: 0 -> DBG2.aml
+13:655  0:010    26. %p: 'MSDMU', 'MSDM', Rev: 1067282394, Len: 3 -> MSDM.aml
+13:665  0:010    27. %p: 'SSDTl', 'SSDT', Rev: 1067282394, Len: 1 -> SSDT-12-NvOptTbl.aml
+13:676  0:010    28. %p: 'SSDT~', 'SSDT', Rev: 1067282394, Len: 2 -> SSDT-13-SgPch.aml
+13:687  0:010    29. %p: 'DMAR¨', 'DMAR', Rev: 1067282394, Len: 1 -> DMAR.aml
+13:697  0:010    30. %p: 'ASF! ', 'ASF!', Rev: 1067282394, Len: 32 -> ASF!.aml
+13:708  0:010    31. %p: 'FPDTD', 'FPDT', Rev: 1067282394, Len: 1 -> FPDT.aml
+13:718  0:010    32. %p: 'BGRT8', 'BGRT', Rev: 1067282394, Len: 1 -> BGRT.aml
+13:729  0:010    33. %p: 'UEFI>', 'UEFI', Rev: 1067282394, Len: 1 -> UEFI.aml
+13:740  0:010    Tables in Rsdt: 34
+13:740  0:000    0. %p: 'FACPô', 'FACP', Rev: 1067282394, Len: 5
+13:740  0:000        (Dsdt: 4FFC1000, Facs: 4FF3E000, XDsdt: 4ffc1000, XFacs: 0)
+13:740  0:000        %p: 'DSDT!k', 'DSDT', Rev: 1067282282, Len: 2
+13:744  0:004        %p: 'FACS@', Ver: 1067282419, Len: 2
+13:744  0:000    1. %p: 'SSDTc€', 'SSDT', Rev: 1067282394, Len: 2
+13:744  0:000    2. %p: 'SSDTÛ', 'SSDT', Rev: 1067282394, Len: 2
+13:744  0:000    3. %p: 'TPM24', 'TPM2', Rev: 1067282394, Len: 3
+13:744  0:000    4. %p: 'UEFIB', 'UEFI', Rev: 1067282394, Len: 1
+13:744  0:000    5. %p: 'SSDTÚ0', 'SSDT', Rev: 1067282394, Len: 2
+13:744  0:000    6. %p: 'SSDTÆ', 'SSDT', Rev: 1067282394, Len: 2
+13:744  0:000    7. %p: 'HPET8', 'HPET', Rev: 1067282394, Len: 1
+13:744  0:000    8. %p: 'APIC,', 'APIC', Rev: 1067282394, Len: 3
+13:744  0:000    9. %p: 'MCFG<', 'MCFG', Rev: 1067282394, Len: 1
+13:744  0:000    10. %p: 'ECDTS', 'ECDT', Rev: 1067282394, Len: 1
+13:744  0:000    11. %p: 'SSDT', 'SSDT', Rev: 1067282394, Len: 2
+13:744  0:000    12. %p: 'SSDT<', 'SSDT', Rev: 1067282394, Len: 2
+13:744  0:000    13. %p: 'BOOT(', 'BOOT', Rev: 1067282394, Len: 1
+13:744  0:000    14. %p: 'BATBJ', 'BATB', Rev: 1067282394, Len: 2
+13:744  0:000    15. %p: 'SLICv', 'SLIC', Rev: 1067282394, Len: 1
+13:744  0:000    16. %p: 'SSDT®', 'SSDT', Rev: 1067282394, Len: 2
+13:744  0:000    17. %p: 'SSDTm', 'SSDT', Rev: 1067282394, Len: 2
+13:744  0:000    18. %p: 'SSDTx', 'SSDT', Rev: 1067282394, Len: 2
+13:744  0:000    19. %p: 'LPIT”', 'LPIT', Rev: 1067282394, Len: 1
+13:744  0:000    20. %p: 'WSMT(', 'WSMT', Rev: 1067282394, Len: 1
+13:744  0:000    21. %p: 'SSDTA', 'SSDT', Rev: 1067282394, Len: 2
+13:744  0:000    22. %p: 'SSDTÕ', 'SSDT', Rev: 1067282394, Len: 2
+13:744  0:000    23. %p: 'SSDTÑ', 'SSDT', Rev: 1067282394, Len: 2
+13:744  0:000    24. %p: 'DBGP4', 'DBGP', Rev: 1067282394, Len: 1
+13:744  0:000    25. %p: 'DBG2T', 'DBG2', Rev: 1067282394, Len: 0
+13:744  0:000    26. %p: 'MSDMU', 'MSDM', Rev: 1067282394, Len: 3
+13:744  0:000    27. %p: 'SSDTl', 'SSDT', Rev: 1067282394, Len: 1
+13:744  0:000    28. %p: 'SSDT~', 'SSDT', Rev: 1067282394, Len: 2
+13:744  0:000    29. %p: 'DMAR¨', 'DMAR', Rev: 1067282394, Len: 1
+13:744  0:000    30. %p: 'ASF! ', 'ASF!', Rev: 1067282394, Len: 32
+13:744  0:000    31. %p: 'FPDTD', 'FPDT', Rev: 1067282394, Len: 1
+13:744  0:000    32. %p: 'BGRT8', 'BGRT', Rev: 1067282394, Len: 1
+13:744  0:000    33. %p: 'UEFI>', 'UEFI', Rev: 1067282394, Len: 1
+13:744  0:000  Found UEFI Acpi 1.0 RSDP at %p
+13:744  0:000  Printing ACPI tables from RSDP %p ...
+13:744  0:000   %p: 'RSD PTR ”LENOVO', Rev: 1067282535 (Acpi 1.0), Len: 20
+13:744  0:000    (Rsdt: %p)
+13:744  0:000    %p: 'RSDT¨', 'RSDT', Rev: 1067282394, Len: 1
+13:744  0:000    Tables in Rsdt: 33
+13:744  0:000    0. %p: 'FACPô', 'FACP', Rev: 1067282394, Len: 5
+13:744  0:000        (Dsdt: 4FFC1000, Facs: 4FF3E000, XDsdt: 4ffc1000, XFacs: 0)
+13:744  0:000        %p: 'DSDT!k', 'DSDT', Rev: 1067282282, Len: 2
+13:748  0:003        %p: 'FACS@', Ver: 1067282419, Len: 2
+13:748  0:000    1. %p: 'SSDTc€', 'SSDT', Rev: 1067282394, Len: 2
+13:748  0:000    2. %p: 'SSDTÛ', 'SSDT', Rev: 1067282394, Len: 2
+13:748  0:000    3. %p: 'TPM24', 'TPM2', Rev: 1067282394, Len: 3
+13:748  0:000    4. %p: 'UEFIB', 'UEFI', Rev: 1067282394, Len: 1
+13:748  0:000    5. %p: 'SSDTÚ0', 'SSDT', Rev: 1067282394, Len: 2
+13:748  0:000    6. %p: 'SSDTÆ', 'SSDT', Rev: 1067282394, Len: 2
+13:748  0:000    7. %p: 'HPET8', 'HPET', Rev: 1067282394, Len: 1
+13:748  0:000    8. %p: 'APIC,', 'APIC', Rev: 1067282394, Len: 3
+13:748  0:000    9. %p: 'MCFG<', 'MCFG', Rev: 1067282394, Len: 1
+13:748  0:000    10. %p: 'ECDTS', 'ECDT', Rev: 1067282394, Len: 1
+13:748  0:000    11. %p: 'SSDT', 'SSDT', Rev: 1067282394, Len: 2
+13:748  0:000    12. %p: 'SSDT<', 'SSDT', Rev: 1067282394, Len: 2
+13:748  0:000    13. %p: 'BOOT(', 'BOOT', Rev: 1067282394, Len: 1
+13:748  0:000    14. %p: 'BATBJ', 'BATB', Rev: 1067282394, Len: 2
+13:748  0:000    15. %p: 'SSDT®', 'SSDT', Rev: 1067282394, Len: 2
+13:748  0:000    16. %p: 'SSDTm', 'SSDT', Rev: 1067282394, Len: 2
+13:748  0:000    17. %p: 'SSDTx', 'SSDT', Rev: 1067282394, Len: 2
+13:748  0:000    18. %p: 'LPIT”', 'LPIT', Rev: 1067282394, Len: 1
+13:748  0:000    19. %p: 'WSMT(', 'WSMT', Rev: 1067282394, Len: 1
+13:748  0:000    20. %p: 'SSDTA', 'SSDT', Rev: 1067282394, Len: 2
+13:748  0:000    21. %p: 'SSDTÕ', 'SSDT', Rev: 1067282394, Len: 2
+13:748  0:000    22. %p: 'SSDTÑ', 'SSDT', Rev: 1067282394, Len: 2
+13:748  0:000    23. %p: 'DBGP4', 'DBGP', Rev: 1067282394, Len: 1
+13:748  0:000    24. %p: 'DBG2T', 'DBG2', Rev: 1067282394, Len: 0
+13:748  0:000    25. %p: 'MSDMU', 'MSDM', Rev: 1067282394, Len: 3
+13:748  0:000    26. %p: 'SSDTl', 'SSDT', Rev: 1067282394, Len: 1
+13:748  0:000    27. %p: 'SSDT~', 'SSDT', Rev: 1067282394, Len: 2
+13:748  0:000    28. %p: 'DMAR¨', 'DMAR', Rev: 1067282394, Len: 1
+13:748  0:000    29. %p: 'ASF! ', 'ASF!', Rev: 1067282394, Len: 32
+13:748  0:000    30. %p: 'FPDTD', 'FPDT', Rev: 1067282394, Len: 1
+13:748  0:000    31. %p: 'BGRT8', 'BGRT', Rev: 1067282394, Len: 1
+13:748  0:000    32. %p: 'UEFI>', 'UEFI', Rev: 1067282394, Len: 1
