@@ -8,7 +8,6 @@ DefinitionBlock("", "SSDT", 2, "hack", "SLEEP-A", 0)
     External(LID, DeviceObj)
     External(_SB.SLPB, DeviceObj)
     External(SLPB, DeviceObj)
-    External(_SB.PCI0.LPCB.EC.XQ2A, MethodObj)
     External(_SB.PCI0.LPCB.EC.XQ2B, MethodObj)
     External(_SB.PCI0.LPCB.EC.XQ13, MethodObj)
     External(_SB.LID.XLID, MethodObj)
@@ -70,28 +69,7 @@ DefinitionBlock("", "SSDT", 2, "hack", "SLEEP-A", 0)
              	\_SB.PCI0.LPCB.EC.XQ13()
             } 
          }        
-        
-         Method (_Q2A, 0, NotSerialized)
-         {
-           If (_OSI ("Darwin"))
-           {		
-             If (\S2EP.MODE==0)
-             {
-                 \S2EP.MYLD =1
-                 \_SB.PCI0.LPCB.EC.XQ2A()
-             }
-             Else
-             {
-                 \S2EP.MPWS =1
-                 Notify (\_SB.SLPB, 0x80)
-             }
-           }
-           Else
-            {
-             	\_SB.PCI0.LPCB.EC.XQ2A()
-            } 
-         }
-     
+             
          Method (_Q2B, 0, NotSerialized)
          {
            If (_OSI ("Darwin"))
