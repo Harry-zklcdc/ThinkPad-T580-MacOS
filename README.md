@@ -63,12 +63,8 @@ UEFI BIOS固件修订
 打开睡眠
 
 ```bash
-sudo pmset -a hibernatemode 0
-sudo rm /var/vm/sleepimage
-sudo mkdir /var/vm/sleepimage
+sudo pmset -a hibernatemode 3
 sudo pmset -a proximitywake 0
-sudo pmset -a standby 0
-sudo pmset -a autopoweroff 0
 ```
 
 鸣谢
