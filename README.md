@@ -14,7 +14,8 @@
 * 联想ThinkPad T580 【4k的UHD显示屏：3840x2160（京东方BOE NV156QUM-N44，非触摸）】
 * 英特尔i7-8550U CPU
 * 内存16GB RAM DDR4 2400-SODIMM
-* Samsung PM981 512GB 更新驱动
+* ~~Samsung PM981 512GB 更新驱动~~
+* TOSHIBA BG3 256G
 * 英特尔以太网I219-V4 有线网卡
 * ~~WiFi CF-811AC 外置网卡~~
 * 自带 Intel WiFi 网卡，需使用 `HeliPort` 连接 WiFi
