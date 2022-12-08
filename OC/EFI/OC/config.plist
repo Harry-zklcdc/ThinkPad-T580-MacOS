@@ -1801,7 +1801,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Ng==</data>
 				<key>boot-args</key>
-				<string>-lilubetaall -disablegfxfirmware -wegnoegpu alcid=11 -hbfxbeta</string>
+				<string>-lilubetaall -disablegfxfirmware -wegnoegpu alcid=11 -hbfxbeta io80211.awdl=0</string>
 				<key>csr-active-config</key>
 				<data>dwAAAA==</data>
 				<key>run-efi-updater</key>
